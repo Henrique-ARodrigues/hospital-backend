@@ -7,14 +7,14 @@
 
 
     Funções {
-        Pegar_todas_as_fichas;
-        Criar_ficha;
+        Pegar_todas_as_fichas; *
+        Criar_ficha; *
         Pesquisar_fichas;
         Pegar_ficha_por_ID;
         Atualizar_ficha_por_ID;
         Excluir_ficha_por_ID;
-        Voltar_versão;
-        Pesquisar_versão;
+        Voltar_versão; *
+        Pesquisar_versão; *
 
     }
 }

@@ -8,7 +8,7 @@ interface RecordModelProps {
 }
 
 
-class RecordModel {
+export class RecordModel {
     private id: number;
     private name: string;
     private priority: number;
@@ -87,19 +87,3 @@ class RecordModel {
     }
 
 }
-
-const X: RecordModel = new RecordModel({
-    id: 4,
-    name: 'Pedro',
-    priority: 2,
-    order: 1,
-    createdAt: new Date(),
-    updatedAt: null,
-})
-
-
-console.log(X);
-
-X.setName('Henriquw');
-
-console.log(X, X.getName());
